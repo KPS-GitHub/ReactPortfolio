@@ -36,7 +36,7 @@ class App extends Component {
 
           {/* -- Carousel/Main Content Row -- */}
           <Row vertical='center' horizontal='center'>
-
+            
           </Row>
 
           {/* -- Footer Row -- */}
