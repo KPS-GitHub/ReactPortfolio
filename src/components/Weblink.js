@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import ReactDOM from "react-dom"
-import styled, { keyframes } from "styled-components"
+import styled from "styled-components"
 
 let Anchor = styled.a`
     margin: 1vw 1.25vw 1vw 1.25vw;

@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import ReactDOM from "react-dom"
 import { Carousel } from "react-bootstrap"
+import About from "./carouselSlides/About"
 import blackBg from "../assets/images/blackBg.jpg"
 
 class ControlledCarousel extends React.Component {
@@ -33,9 +34,9 @@ class ControlledCarousel extends React.Component {
         >
           <Carousel.Item>
             <img style={{height: '80vh'}} alt="900x500" src={blackBg} />
-            <Carousel.Caption style={{bottom: '30vh'}}>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <Carousel.Caption style={{bottom: '20vh'}}>
+              <About>
+              </About>    
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
