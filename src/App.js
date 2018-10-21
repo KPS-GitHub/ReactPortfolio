@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Row, Column } from "simple-flexbox"
 import Weblink from "./components/Weblink"
+import ControlledCarousel from "./components/Carousel"
 
 
 // IMPROVEMENT OPPORTUNITY: switch the weblink icons from url's (not guaranteed to always work) to files in the assets folder
@@ -36,7 +37,8 @@ class App extends Component {
 
           {/* -- Carousel/Main Content Row -- */}
           <Row vertical='center' horizontal='center'>
-            
+            <ControlledCarousel>
+            </ControlledCarousel>
           </Row>
 
           {/* -- Footer Row -- */}
