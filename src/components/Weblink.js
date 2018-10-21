@@ -3,16 +3,16 @@ import ReactDOM from "react-dom"
 import styled, { keyframes } from "styled-components"
 
 let Anchor = styled.a`
-    margin: 1vw;
+    margin: 1.5vw;
 `
 let Icon = styled.img`
-    height: 10vh;
+    width: 8.5vw;
     opacity: 0.75;
-    transition: 0.2s;
+    transition: 0.4s;
     &:hover {
-        height: 11vh;
+        width: 8.75vw;
         opacity: 0.5;
-        transition: 0.2s;
+        transition: 0.4s;
     }
 `
 
