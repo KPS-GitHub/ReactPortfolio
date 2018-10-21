@@ -1,7 +1,8 @@
 import React, { Component } from "react"
 import ReactDOM from "react-dom"
 import { Carousel } from "react-bootstrap"
-import About from "./carouselSlides/About"
+import About from "./carouselSlides/about/About"
+import Portfolio from "./carouselSlides/portfolio/Portfolio"
 import blackBg from "../assets/images/blackBg.jpg"
 
 class ControlledCarousel extends React.Component {
@@ -33,21 +34,21 @@ class ControlledCarousel extends React.Component {
           onSelect={this.handleSelect}
         >
           <Carousel.Item>
-            <img style={{height: '80vh'}} alt="900x500" src={blackBg} />
-            <Carousel.Caption style={{bottom: '20vh'}}>
+            <img style={{height: '80vh'}} alt="black background image used for carousel" src={blackBg} />
+            <Carousel.Caption style={{bottom: '25vh'}}>
               <About>
               </About>    
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img style={{height: '80vh'}} alt="900x500" src={blackBg} />
-            <Carousel.Caption style={{bottom: '30vh'}}>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <img style={{height: '80vh'}} alt="black background image used for carousel" src={blackBg} />
+            <Carousel.Caption style={{bottom: '20vh'}}>
+              <Portfolio>
+              </Portfolio>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img style={{height: '80vh'}} alt="900x500" src={blackBg} />
+            <img style={{height: '80vh'}} alt="black background image used for carousel" src={blackBg} />
             <Carousel.Caption style={{bottom: '30vh'}}>
               <h3>Third slide label</h3>
               <p>
