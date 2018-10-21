@@ -11,7 +11,7 @@ class App extends Component {
     return (
 
         // "Container" Column
-        <Column vertical='center' horizontal='center'>
+        <Column vertical='center' horizontal='stretch'>
 
           {/* -- Header Row -- */}
           <Row vertical='center' horizontal='center'>
@@ -36,7 +36,7 @@ class App extends Component {
           </Row>
 
           {/* -- Carousel/Main Content Row -- */}
-          <Row vertical='center' horizontal='center'>
+          <Row vertical='center' horizontal='center' style={{backgroundColor: 'black'}}>
             <ControlledCarousel>
             </ControlledCarousel>
           </Row>
