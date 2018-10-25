@@ -4,6 +4,12 @@ import Weblink from "./components/Weblink"
 import ControlledCarousel from "./components/Carousel"
 
 
+const CarouselStyles = {
+  backgroundColor: 'black',
+  opacity: 0.75,
+  height: '80vh'
+}
+
 // IMPROVEMENT OPPORTUNITY: switch the weblink icons from url's (not guaranteed to always work) to files in the assets folder
 
 class App extends Component {
@@ -36,7 +42,7 @@ class App extends Component {
           </Row>
 
           {/* -- Carousel/Main Content Row -- */}
-          <Row vertical='center' horizontal='center' style={{backgroundColor: 'black'}}>
+          <Row vertical='center' horizontal='center' style={CarouselStyles}>
             <ControlledCarousel>
             </ControlledCarousel>
           </Row>

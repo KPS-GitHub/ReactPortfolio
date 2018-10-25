@@ -5,12 +5,13 @@ import styled from "styled-components"
 const Title = styled.h1`
     font-size: 5vh;
     padding-bottom: 2vh;
+    border-bottom: 1px solid white;
 `
 
 class Contact extends Component {
     render () {
         return (
-            <Column horizontal="center" vertical="space-around">
+            <Column vertical="space-around">
                 <Title>Contact</Title>
                 <form action="https://formspree.io/kennan.smith1@gmail.com" method="POST" class="form-horizontal">
                     <div class="form_first_row">
@@ -39,6 +40,14 @@ class Contact extends Component {
                         </div>
                     </div>
                 </form>
+                <Row horizontal='spaced' vertical='center' style={{'margin-top': '20vh'}}>
+                    <Column>
+                        <p>Portfolio</p>
+                    </Column>
+                    <Column>
+                        <p>About Me</p>
+                    </Column>
+                </Row>
             </Column>
         )
     }
