@@ -3,6 +3,7 @@ import ReactDOM from "react-dom"
 import { Carousel } from "react-bootstrap"
 import About from "./carouselSlides/about/About"
 import Portfolio from "./carouselSlides/portfolio/Portfolio"
+import Contact from "./carouselSlides/contact/Contact"
 import blackBg from "../assets/images/blackBg.jpg"
 
 class ControlledCarousel extends React.Component {
@@ -35,7 +36,7 @@ class ControlledCarousel extends React.Component {
         >
           <Carousel.Item>
             <img style={{height: '80vh'}} alt="black background image used for carousel" src={blackBg} />
-            <Carousel.Caption style={{bottom: '25vh'}}>
+            <Carousel.Caption style={{bottom: '20vh'}}>
               <About>
               </About>    
             </Carousel.Caption>
@@ -49,11 +50,9 @@ class ControlledCarousel extends React.Component {
           </Carousel.Item>
           <Carousel.Item>
             <img style={{height: '80vh'}} alt="black background image used for carousel" src={blackBg} />
-            <Carousel.Caption style={{bottom: '30vh'}}>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+            <Carousel.Caption style={{bottom: '20vh'}}>
+              <Contact>
+              </Contact>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
