@@ -6,7 +6,11 @@ import myDataBasic from "../../../assets/images/myDataBasic.png"
 
 const Title = styled.h1`
     font-size: 5vh;
-    padding-bottom: 2vh;
+`
+
+const Subtitle = styled.p`
+    font-size: 1.5vh;
+    padding-top: 1.5vh;
 `
 
 class Portfolio extends Component {
@@ -19,41 +23,55 @@ class Portfolio extends Component {
                 <Row horizontal='space-around' vertical='center' style={{'borderTop': '1px solid white'}}>
                     {/* portfolio pieces */}
                     <PfPiece 
+                        projTitle='myDataReact'
                         anchorLink='https://github.com/KPS-GitHub/myDataReact'
                         imageLink={myDataBasic}
+                        gitLink='https://github.com/KPS-GitHub/myDataReact'
                     >
                     </PfPiece>
                     <PfPiece 
+                        projTitle='myDataReact'
                         anchorLink='https://github.com/KPS-GitHub/myDataReact'
                         imageLink={myDataBasic}
+                        gitLink='https://github.com/KPS-GitHub/myDataReact'
                     >
                     </PfPiece>
                     <PfPiece 
+                        projTitle='myDataReact'
                         anchorLink='https://github.com/KPS-GitHub/myDataReact'
                         imageLink={myDataBasic}
+                        gitLink='https://github.com/KPS-GitHub/myDataReact'
                     >
                     </PfPiece>
                 </Row>
                 <Row horizontal='space-around' vertical='center'>
                     {/* portfolio pieces */}
-                    <PfPiece 
+                    <PfPiece
+                        projTitle='myDataReact' 
                         anchorLink='https://github.com/KPS-GitHub/myDataReact'
                         imageLink={myDataBasic}
+                        gitLink='https://github.com/KPS-GitHub/myDataReact'
                     >
                     </PfPiece>
                     <PfPiece 
+                        projTitle='myDataReact'
                         anchorLink='https://github.com/KPS-GitHub/myDataReact'
                         imageLink={myDataBasic}
+                        gitLink='https://github.com/KPS-GitHub/myDataReact'
                     >
                     </PfPiece>
                     <PfPiece 
+                        projTitle='myDataReact'
                         anchorLink='https://github.com/KPS-GitHub/myDataReact'
                         imageLink={myDataBasic}
+                        gitLink='https://github.com/KPS-GitHub/myDataReact'
                     >
                     </PfPiece>
                 </Row>
 
-                <Row horizontal='spaced' vertical='center' style={{'margin-top': '20vh'}}>
+                <Subtitle>mouse-over a project to see the technologies used</Subtitle>
+
+                <Row horizontal='spaced' vertical='center' style={{'margin-top': '10vh'}}>
                     <Column>
                         <p>About Me</p>
                     </Column>
