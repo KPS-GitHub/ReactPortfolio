@@ -23,7 +23,7 @@ class About extends Component {
                 </Column>
                 <Row horizontal='spaced' vertical='center' style={{'margin-top': '20vh'}}>
                     <Column>
-                        <p>Contact Me</p>
+                        <p>Contact</p>
                     </Column>
                     <Column>
                         <p>Portfolio</p>
